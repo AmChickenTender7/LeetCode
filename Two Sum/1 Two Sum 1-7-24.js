@@ -13,8 +13,7 @@ function twoSum(nums, target) {
 
     /* Now, we look through the array of numbers to find two the two numbers that add to be the sum.
        while we look, we have to acknowledge the number of the iteration that we are on as well as 
-       the number that complements the number of the iteration. We must find the number that 
-       complements the number of the iteration in the array as well. We do this by implementing a 
+       the number that complements the number of the iteration. We do this by implementing a 
        map. This map will house the array as the value of the array and it's position. We will iterate
        over the array as well as make a map until we have found a value that whose complement is in the
        map that we create. */
